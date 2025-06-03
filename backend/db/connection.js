@@ -8,3 +8,7 @@ mongoose.connect(dburl).then(() => {
 }).catch((err) => {
     console.log(err.message);
 });
+
+//change under prod to a feature branch manish:feat:db-connection
+//export default mongoose.connection;-Alekhya
+//this is a comment for testing purposes - by Rohit
