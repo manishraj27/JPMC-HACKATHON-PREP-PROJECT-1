@@ -10,3 +10,4 @@ mongoose.connect(dburl).then(() => {
 });
 
 //change under prod to a feature branch manish:feat:db-connection
+//export default mongoose.connection;-Alekhya
